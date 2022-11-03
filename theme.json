@@ -6,11 +6,13 @@
 			"wideSize": "1100px"
 		},
 		"color": {
+			"defaultPalette": false,
+			"custom": false,
 			"palette": [
 				{
 					"slug": "primary",
-					"color": "#ff0000",
-					"name": "Primary"
+					"color": "#7c027c",
+					"name": "Purple"
 				},
 				{
 					"slug": "secondary",
@@ -31,6 +33,12 @@
 					]
 				}
 			}
+		}
+	},
+	"styles": {
+		"color": {
+			"text": "var(--wp--preset--color--primary)",
+			"background": "var(--wp--preset--color--secondary)"
 		}
 	}
 }
